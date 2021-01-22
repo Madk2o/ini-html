@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/index.css">
+</head>
+<body>
+
+    <nav>
+        <ul>        <li> <a href="#">Accueil</a></li>
+            <li> <a href="/qui-sommes-nous">Qui sommes-nous</a></li>
+            <li> <a href="/services">Services</a></li>
+            <li> <a href="/contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Ceci est un commentaire -->
+    <h1>Mes balises titres</h1>
+    <h2>ceci est la balise h2</h2>
+    <h3>ceci est la balise h3</h3>
+    <h4>ceci est la balise h4</h4>
+    <h5>ceci est la balise h5</h5>
+    <h6>ceci est la balise h6</h6>
+
+    <p>Lorem ipsum dolor sit amet,</p> 
+    <!-- balise em pour emphase, cad attirer l'attention sur une série de mots important -->
+    <p><em>consectetur adipisicing elit.</em> <br>
+    Corporis quidem illo odit atque <br>
+    <mark>temporibus neque tempore commodi </mark><br>
+    <i>adipisci, numquam beatae. Quidem </i><br>
+    <del>molestias explicabo voluptas, minus</del> <br>
+    <strong>nihil quia perspiciatis veritatis nulla?</strong></p>
+    <hr style="margin-bottom: 3em;">
+
+    <a href="http://google.be" title="turlututu" target="_blank" rel="noopener">Cliquez ici pour vous rendre sur google.</a>
+    <img src="https://jardinage.lemonde.fr/images/dossiers/2017-08/chaton-161238.jpg" alt="Image de chaton" >
+
+    <h3>Listes ordonnées</h3>
+    <ol>
+        <li>premier element</li>
+        <li>second element</li>
+        <li>tois element</li>
+        <li>quatre element</li>
+        <li>cinq element</li>
+    </ol>
+
+    <ol start="6">
+        <li>premier element</li>
+        <li>second element</li>
+        <li>tois element</li>
+        <li>quatre element</li>
+        <li>cinq element</li>
+    </ol>
+
+    <ol reversed>
+        <li>premier element</li>
+        <li>second element</li>
+        <li>tois element</li>
+        <li>quatre element</li>
+        <li>cinq element</li>
+    </ol>
+
+    <h3 class="ul">Listes non-ordonnées</h3>
+    <ul>
+        <li><a href="#">premier element</a></li>
+        <li>second element</li>
+        <li>trois element</li>
+        <li>quatre element</li>
+        <li>cinq element</li>
+    </ul>
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+<h3>Les tableaux</h3>
+
+<table style="margin-bottom: 5em;">
+    <caption> Ceci est le titre de mon tableau</caption>
+    <tr> 
+        <th>Nom</th>
+        <th>Prénom</th>
+        <th>Age</th>
+        <th>Email</th>
+    </tr>
+    <tr> 
+        <td>Duck</td>
+        <td>Riri</td>
+        <td>13</td>
+        <td>Riri@gmail.com</td>
+    </tr>
+
+</table>
+
+<form>
+   <p>    <tr> 
+    <td>Duck</td>
+    <td>Fifi</td>
+    <td>13</td>
+    <td>Fifi@gmail.com</td>
+</tr>    <tr> 
+    <td>Duck</td>
+    <td>Fifi</td>
+    <td>13</td>
+    <td>Fifi@gmail.com</td>
+</tr>
+
+</form>
+
+<input type="text" placeholder="nom" required><br>
+    <input type="color"><br>
+    <input type="checkbox">bonjour<br>
+    <input type="date"><br>
+    <input type="datetime-local"><br>
+    <input type="email"><br>
+    <input type="file"><br>
+    <input type="image" src="src/img/david.png"><br>
+    <input type="month"><br>
+    <input type="number"><br>
+    <input type="password" required><br>
+    <input type="Radio"><br>
+    <input type="range"><br>
+    <input type="search"><br>
+    <input type="tel"><br>
+    <p><input type="time"></p>
+    <p><input type="url"></p> 
+    <p><input type="week"></p>
+
+    <button type="submit">Valider mon formulaire</button>
+    <p>Entrez votre nom</p>
+    <input type="text" placeholder="nom"><br>
+    <label>Entrez votre nom</label>
+    <p><input type="text" placeholder="nom"></p>
+
+    <select>
+        <option value="pomme">pomme</option>
+        <option value="peche">peche</option>
+        <option value="poire">prune</option>
+    </select>
+
+    <div>
+        <textarea cols="38" rows="18"></textarea>
+    </div>
+
+    <div>
+        <textarea cols="38" rows="18"></textarea>
+    </div>
+[19:43] maximilien coulon
+    
+
+<h3>Les types de balises (DISPLAY)</h3>
+<!-- Balise bloc = toute la largeur de l'écran, balise inline = juste l'espace dont elle a besoin -->
+<p>form, h1 a h6, hr, ul,ol,li et la balise table sont des balises de type bloc</p>
+<p>a,br, button,em,img,input,label,meter,progress,select,,span,strong,textarea sont des balises de type inline</p>
+ 
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi molestiae, consequatur exercitationem saepe obcaecati praesentium totam asperiores porro? Nam illum ipsa dolore
+<span>provident distinctio ipsum rerum debitis dicta recusandae exercitationem!Aliquid nihil, consequatur a enim, quod vero velit, </span>
+<span style="color: blue;">repellendus consequuntur ab consectetur culpa. </span>
+<!-- span est une balise "fourre tout" qui permettra par la suite d'afficher du CSS spécifique sur cette partie du texte -->
+        Nobis quaerat temporibus, sed rem molestias libero amet dolorum dicta aliquid! Voluptatem hic tenetur suscipit quas quae.</p>
+
+<section style="color: aquamarine; background-color:black">
+    <h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus est impedit, ad expedita temporibus dicta atque ab optio. Molestiae nisi dolorem, fugit pariatur hic velit ut aspernatur magnam non culpa?</p>
+    </h3>
+        <form action="">
+        <input type="text"><br>
+        <input type="email">
+        <button type="submit">Valider</button>
+    </form>
+</section>
+<p>en dehors de la section</p>
+
+<footer style="background-color: royalblue; padding: 5rem;"><p style="color: silver;">2021 Michele</p> </footer>
+
+ <a href="/initiation-html-main/src/exo1.html">autre section</a>
+</body>
+</html>

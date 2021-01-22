@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div, span {
+    color: coral;
+}
+p {
+    color: red;
+}
+
+/* les combinateurs*/
+div span {
+    color: darkblue;
+}
+
+/* les combinateurs enfants*/
+
+div > span{
+    color: rgb(173, 4, 145);
+    font-weight: bold;
+}
+
+/* les classe */
+.rouge{
+    font-weight: 100;
+}
+
+.gras{
+    background-color: royalblue;
+    font-weight: bold;
+}
+
+/* les id*/
+
+#id1{
+    background-color: saddlebrown;
+}
+/* les selecteurs d'attribut */
+a[href="http://google.fr"]{
+    background-color: sandybrown;
+}
